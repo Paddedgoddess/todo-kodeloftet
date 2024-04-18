@@ -1,0 +1,114 @@
+body {
+    background-color: blanchedalmond;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+   
+}
+
+h1 {
+    font-size: 8vh;
+    padding-bottom: 6vh;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    border: 0;
+    border-bottom: 2px black;
+}
+
+.inputTask {
+    border: none;
+    background-color: blanchedalmond;
+    font-size: 18px;
+    width: 27vw;
+}
+
+
+
+.buttonTask {
+    size: 18px;
+    border: none;
+    font-size: 18px;
+    background-color: blanchedalmond;
+    
+}
+
+ .inputTask:focus {
+outline: none;
+
+}
+
+input[type="text" i] {
+    background-color: blanchedalmond;
+}
+
+.listTaskItem input[type="checkbox"] {
+   
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.listTaskItem {
+
+    font-size: 18px;
+    margin: 7px; 
+}
+
+input[type="checkbox"]::before {
+    content: '';
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    border: 2px solid tan; 
+    background-color: blanchedalmond; 
+    border-radius: 4px; 
+    margin-right: 10px;
+}
+
+input[type="checkbox"]:checked::before {
+    background-color: tan; 
+}
+
+.underline {
+    background-color: tan;
+    height: 2px;
+    width: 30vw;
+}
+
+.area {
+    width: 30vw;
+    background-color: blanchedalmond;
+    height: auto;
+}
+
+
+
+
+.listTask {
+    list-style-type: none;
+}
+
+.listTaskItem {
+    list-style-type: none;
+    height: 18px;
+}
+
+.buttonRemove {
+    border-radius: 8px;
+    border-color: tan;
+    background-color: blanchedalmond ;
+    font-size: 16px;
+    width: auto;
+}

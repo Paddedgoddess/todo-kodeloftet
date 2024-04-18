@@ -20,19 +20,35 @@
     <script type="module" src="script.js"></script>
   </head>
   <body>
-    <main>
-      <form>
-        <label for="inputTask">
-          write todo
+    <main class="main" >
+    <h1 class="">To Do</h1>
 
-          <input type="text" name="inputTask" id="inputTask" />
+    
+      <form form="form">
+        <div class="inputLabel">
+        <label  for="inputTask">
+       
         </label>
-        <button id="buttonTask" >add todo</button>
-      </form>
 
+          <input type="text" class="inputTask" placeholder="Add task" name="inputTask" id="inputTask" />
+        
+      </div>
+
+        <button class="buttonTask" name="buttonTask" id="buttonTask" >+</button>
+      
+      
+      </form>
+      <label class="underline"></label>
+  
+     <label class="area">
+     
       <ul id="listTask" >
-        <li>pet the cat</li>
+      
       </ul>
+    </label>
+
+      <button class="buttonRemove" name="buttonRemove" id="removeCheckedItems" >Remove task</button>
+    
     </main>
   </body>
 </html>
