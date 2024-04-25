@@ -49,9 +49,10 @@ outline: none;
 
 }
 
-input[type="text" i] {
-    background-color: blanchedalmond;
+input[type="text"]:focus {
+    background-color: lightblue;
 }
+
 
 .listTaskItem input[type="checkbox"] {
    
